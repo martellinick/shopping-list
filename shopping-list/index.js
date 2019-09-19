@@ -3,7 +3,7 @@ function shoppingList() {
   $('#js-shopping-list-form').submit(function(event){
     event.preventDefault();
     
-    const listItem = $('.shopping-list-entry').val();
+    const listItem = $('#shopping-list-entry').val();
     
     
    if (listItem !== "") {
